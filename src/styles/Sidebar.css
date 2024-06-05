@@ -1,0 +1,67 @@
+.sidebar {
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 10px;
+}
+
+.logo-icon {
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    background: linear-gradient(125deg, #5a19a3, #417de5);
+}
+
+.menu-bar {
+    height: calc(100vh - 60px); /* Adjusted to fit within the viewport minus the logo/header */
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 1rem;
+    position: relative;
+    overflow: auto; /* Added to ensure menu is scrollable if content overflows */
+}
+
+.toggle-theme-btn {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(28, 17, 41, 0.88);
+}
+
+.toggle-theme-btn-dark {
+    background: rgba(239, 236, 243, 0.88); /* Light theme background */
+    color: #000;
+}
+
+.toggle-theme-btn-light {
+    background: rgba(239, 236, 243, 0.88); /* Light theme background */
+    color: #000;
+}
+
+.toggle {
+    margin-left: 15px;
+}
+
+
+  
+  .ant-layout-content {
+    background: transparent !important;
+  }
+  
