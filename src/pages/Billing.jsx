@@ -85,6 +85,8 @@ const Billing = () => {
             <img
               src="https://cdn-icons-png.flaticon.com/128/5700/5700956.png"
               alt=""
+              width="45px"
+              height="45px"
             />
             <Tooltip
               title="You must have at least $100 in credits to enable automatic payments"
